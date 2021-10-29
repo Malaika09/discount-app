@@ -32,7 +32,7 @@ const Startscreen = ({navigation}) => {
   }
   const save = ()=>{
       var obj =  {key: Math.random().toString() ,originalprice:getop, discount:getdp, finalprice:getfprice};
-      list.push(obj);
+      list.push(obj); 
       setdp("");
       setop("");
   }
